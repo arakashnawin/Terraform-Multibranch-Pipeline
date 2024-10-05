@@ -1,3 +1,4 @@
+---
 # Infrastructure as Code (IaC) Pipeline with Terraform, Checkov, and Jenkins
 
 This project uses Jenkins, Terraform, Ansible, and Checkov to manage and verify infrastructure as code (IaC). The pipeline automates the deployment of AWS resources with Terraform and scans for potential misconfigurations using Checkov.
@@ -145,8 +146,3 @@ variable "amiid" {
 - **Terraform**: Installed on the Jenkins server or build agent.
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
-
